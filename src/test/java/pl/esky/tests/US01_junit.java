@@ -1,26 +1,26 @@
 package pl.esky.tests;
 
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 import pl.esky.pages.HomePage;
 import pl.esky.pages.SearchingFlightResultPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class US01TestNG {
+public class US01_junit {
         /* As a Client
         I want to find a flight for me and my family
         from Warsaw Chopin Airport to Cracow Balice Airport  */
 
     WebDriver driver;
 
-    @BeforeTest
+    @Before
     public void setup () {
         System.setProperty("webdriver.chrome.driver", "/Users/maciejwachowski/SeleniumDriver/chromedriver");
         driver = new ChromeDriver();
@@ -28,7 +28,7 @@ public class US01TestNG {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
-    @AfterTest
+    @After
     public void end () {
         driver.quit();
     }
@@ -71,4 +71,5 @@ public class US01TestNG {
         Assert.assertEquals("Warszawa (WAW) - Kraków (KRK) - eSky.pl",searchingFlightResultPage.getTitle());
 
     }
+
 }

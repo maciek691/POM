@@ -1,4 +1,4 @@
-package pl.esky.tests;
+package pl.esky.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -8,8 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pl.esky.pages.HomePage;
-import pl.esky.pages.SearchingFlightResultPage;
 
 import java.util.concurrent.TimeUnit;
 

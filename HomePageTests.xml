@@ -2,7 +2,7 @@
 <suite name="pl.esky">
     <test name="HomePageTests">
         <classes>
-            <class name="pl.esky.tests.US01"> </class>
+            <class name="pl.esky.pages.US01"> </class>
         </classes>
     </test>
 </suite>

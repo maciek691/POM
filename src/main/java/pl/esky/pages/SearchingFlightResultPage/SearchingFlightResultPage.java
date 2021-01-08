@@ -1,4 +1,4 @@
-package pl.esky.pages;
+package pl.esky.pages.SearchingFlightResultPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

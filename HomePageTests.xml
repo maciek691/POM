@@ -1,8 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="pl.esky">
-    <test name="HomePageTests">
+<suite name="pl.esky" parallel="tests">
+    <test name="HomePage_e2e_FlightSearchTest">
         <classes>
-            <class name="pl.esky.pages.US01"> </class>
+            <class name="pl.esky.pages.HomePage.US01_FlightSearch"> </class>
+        </classes>
+    </test>
+    <test name="HomePageTests_CheckLinksInLinksSection">
+        <classes>
+            <class name="pl.esky.pages.HomePage.US02_CheckLinksInLinksSection"> </class>
         </classes>
     </test>
 </suite>

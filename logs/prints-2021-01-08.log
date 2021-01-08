@@ -1,0 +1,5 @@
+18:29:58.782 [TestNG-tests-2] INFO  pl.esky.pages.HomePage.LinksSection - the link Press Room is ok
+18:29:59.159 [TestNG-tests-2] INFO  pl.esky.pages.HomePage.LinksSection - the link Kariera is ok
+18:29:59.347 [TestNG-tests-2] INFO  pl.esky.pages.HomePage.LinksSection - the link Program partnerski is ok
+18:30:00.812 [TestNG-tests-2] INFO  pl.esky.pages.HomePage.LinksSection - the link Dla Akcjonariuszy is ok
+18:30:02.774 [TestNG-tests-2] INFO  pl.esky.pages.HomePage.LinksSection - the link Regulamin is ok
